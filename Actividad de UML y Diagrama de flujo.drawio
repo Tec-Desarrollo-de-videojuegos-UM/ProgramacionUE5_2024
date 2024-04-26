@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" modified="2024-04-26T01:02:03.526Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Nw23JI90yfiTeV64AuF4" version="24.3.0" type="device">
+  <diagram name="Página-1" id="x5dlkGzio9lAX2NnpVFD">
+    <mxGraphModel dx="1877" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-1" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; height=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width:100%;height:100%;border-collapse:collapse;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Items&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-durability: int&lt;br&gt;-rarity: string&lt;br&gt;-habilities:string&lt;br&gt;-name: string&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-multiplyDamage()&lt;br&gt;-giveHealth()&lt;br&gt;-giveMoreSpeed()&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;overflow=fill;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CQR6T99JUEb6SBJC2JoU-2" target="CQR6T99JUEb6SBJC2JoU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-2" value="Hacer café" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.593;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CQR6T99JUEb6SBJC2JoU-3" target="CQR6T99JUEb6SBJC2JoU-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="605" y="190" />
+              <mxPoint x="605" y="281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-10" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CQR6T99JUEb6SBJC2JoU-7">
+          <mxGeometry x="0.1122" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CQR6T99JUEb6SBJC2JoU-3" target="CQR6T99JUEb6SBJC2JoU-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-9" value="Sí" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CQR6T99JUEb6SBJC2JoU-8">
+          <mxGeometry x="0.0712" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-3" value="Tienes pava electrica_" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="150" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CQR6T99JUEb6SBJC2JoU-11" target="CQR6T99JUEb6SBJC2JoU-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-11" value="Hervir agua en la pava electrica" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CQR6T99JUEb6SBJC2JoU-12" target="CQR6T99JUEb6SBJC2JoU-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-12" value="Comprar una pava electrica" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CQR6T99JUEb6SBJC2JoU-16" target="CQR6T99JUEb6SBJC2JoU-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-19" value="S[i" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CQR6T99JUEb6SBJC2JoU-18">
+          <mxGeometry x="0.4407" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CQR6T99JUEb6SBJC2JoU-16" target="CQR6T99JUEb6SBJC2JoU-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-16" value="Tienes café instantaneo y azucar?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CQR6T99JUEb6SBJC2JoU-20" target="CQR6T99JUEb6SBJC2JoU-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-20" value="Colocar una cucharada de cafe y cucharadas de azucar a elección en una taza" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="525" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CQR6T99JUEb6SBJC2JoU-22" target="CQR6T99JUEb6SBJC2JoU-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-22" value="Comprar azucar y café instantaneo" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CQR6T99JUEb6SBJC2JoU-24" target="CQR6T99JUEb6SBJC2JoU-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-24" value="Vertir el agua hirviendo en la taza y luego revolver&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="680" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="CQR6T99JUEb6SBJC2JoU-27" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="860" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
