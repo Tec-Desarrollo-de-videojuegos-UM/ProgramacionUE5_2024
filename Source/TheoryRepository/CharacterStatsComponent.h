@@ -23,8 +23,10 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-    UPROPERTY(BlueprintCallable)
-    bool IsDead(int32 Health);
-	UPROPERTY(BlueprintCallable)
+
+	UFUNCTION(BlueprintCallable)
+    bool IsDead(const int32 Health);
+
+	UFUNCTION(BlueprintCallable)
 	bool HasEnoughEnergy(int32 Energy);
 };
