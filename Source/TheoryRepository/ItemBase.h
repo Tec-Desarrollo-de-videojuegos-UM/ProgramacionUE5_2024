@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/BoxComponent.h"
 #include "ItemBase.generated.h"
+
 
 UCLASS()
 class THEORYREPOSITORY_API AItemBase : public AActor
@@ -21,13 +23,18 @@ public:
 	UFUNCTION(BlueprintCallable)
 	int32 ChangeAmount(int32 NewAmount);
 
+public:
+
+	UStaticMesh* StaticMeshObject;
+	UPROPERTY(EditAnywhere)
+	UBoxComponent* CollisionBox;
+	
+	FString name;
+	UPROPERTY(BlueprintReadOnly)
+	int32 amount;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:
-
-	FString name;
-	UPROPERTY(BlueprintReadOnly)
-	int32 amount;
 };

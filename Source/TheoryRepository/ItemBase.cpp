@@ -9,6 +9,11 @@ AItemBase::AItemBase()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("Cajita"));
+	RootComponent = CollisionBox;
+
+	//StaticMeshObject = CreateDefaultSubobject<UStaticMesh>(TEXT("MalllitaEstatica"));
+
 }
 
 // Called when the game starts or when spawned
@@ -21,7 +26,6 @@ void AItemBase::BeginPlay()
 void AItemBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 FString AItemBase::ChangeName(FString NewName)
@@ -32,7 +36,7 @@ FString AItemBase::ChangeName(FString NewName)
 
 int32 AItemBase::ChangeAmount(int32 NewAmount)
 {
-	amount = amount + NewAmount;
+	amount = NewAmount;
 	return amount;
 }
 
