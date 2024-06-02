@@ -32,6 +32,7 @@ void UVidaClass::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompo
 
 	// ...
 }
+void tick;
 int main(){
 float vida;
 vida = 100;
