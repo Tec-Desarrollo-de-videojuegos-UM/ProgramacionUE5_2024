@@ -14,10 +14,10 @@ void Acontador_de_vida::CheckHealth() const
 {
 	if (Healt <= 0.0f)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("estas muerto"));
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("etas muelto papi"));
 	}
 	else
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("estas vivo"));
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("etas vivito"));
 	}
 }
