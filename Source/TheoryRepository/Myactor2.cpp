@@ -2,6 +2,7 @@
 
 
 #include "Myactor2.h"
+#include <iostream>
 
 // Sets default values
 AMyactor2::AMyactor2()
@@ -24,4 +25,18 @@ void AMyactor2::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
+//Function for player HP
+void VerifyHealth(int health) {
+	if (health >= 0) {
+		std::cout << " Player is dead " << std::end;
+	}
+	else { 
+		std::cout << " Player is still alive " << std::end;
+	}
+}
+int main() {
+	int HealthCharachter = 50;
+	VerifyHealth(HealthCharachter);
 
+	return 0;
+}
