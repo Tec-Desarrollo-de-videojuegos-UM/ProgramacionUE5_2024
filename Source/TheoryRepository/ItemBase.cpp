@@ -25,3 +25,15 @@ void AItemBase::Tick(float DeltaTime)
 
 }
 
+FString AItemBase::ChangeName(FString NewName)
+{
+	name = NewName;
+	return NewName;
+
+}
+int32 AItemBase::ChangeAmount(int32 NewAmount)
+{
+	amount = NewAmount;
+	return NewAmount;
+
+}
