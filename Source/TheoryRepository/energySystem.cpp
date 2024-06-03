@@ -35,13 +35,13 @@ bool UenergySystem::checkEnergy()
 {
 	if (energy <= 0)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("No tienes energias para realizar la accion"));
+		GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Blue, TEXT("No tienes energias para realizar la accion"));
 		calculateEnergy(100);
 		return true;
 	}
 	else {
 		energy = energy - 10;
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("Tienes energias para realizar la accion"));
+		GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Blue, TEXT("Tienes energias para realizar la accion"));
 		return false;
 	}
 }
