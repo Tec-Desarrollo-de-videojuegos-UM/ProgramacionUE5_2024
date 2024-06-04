@@ -24,6 +24,10 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
+	UFUNCTION (BluprintCallable, Category "Abilites")
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collision")
-	UboxComponent* BoxCollision;
-};
+	UboxComponent1* BoxCollision;
+	void SpawnBoxCollider();
+
+	TSubclassOf<AActor> actorBPtoSpawn;
+};	
