@@ -25,6 +25,9 @@ void AMyactor2::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
+//Declaring Verify energy function
+void VerifyEnergy(int& energy, int energyrequired);
+
 //Function for player HP
 void VerifyHealth(int health) {
 	if (health <= 0) {
@@ -34,37 +37,35 @@ void VerifyHealth(int health) {
 		std::cout << " Player is still alive " << std::endl;
 	}
 }
-int main() {
-	int HealthCharacter = 50;
-	VerifyHealth(HealthCharacter);
 
-	return 0;
-}
 //Function dedicated to verify player energy
-
-void Verifyenergy(int& energy, int energyrequired) {
+void VerifyEnergy(int& energy, int energyrequired) {
 
 	if (energy >= energyrequired) {
 		energy -= energyrequired;//reduces the energy
-		std::count << " Action can be done " << std::endl;
+		std::cout << " Action can be done " << std::endl;
 	}
 	else {
-		std::count << " Action cant be done " << std::endl;
-	
+		std::cout << " Action cant be done " << std::endl;
+
 	}
-		
-}
+	}
 
 int main() {
+
+	int HealthCharacter = 50;
+	VerifyHealth(HealthCharacter);
+
 	int playerenergy = 100;//Base energy of Player
 	int energyforaction = 40;//Energy required to do the action
 
 	//Verifies energy quantities
-	
-	Verifyenergy(playerenergy, energyforaction);
-	
+
+	VerifyEnergy(playerenergy, energyforaction);
+
 	//Show Energy left
-	std::count << " Energy remaining " << playerenergy << std::endl;
+	std::cout << " Energy remaining " << playerenergy << std::endl;
 
 	return 0;
+
 }
