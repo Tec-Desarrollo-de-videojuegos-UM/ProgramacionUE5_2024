@@ -35,3 +35,11 @@ void ACharacterHealth::CheckHealth(int Health) {
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("El personaje ha muerto"));
 	}
 }
+
+int main() {
+	// Ejemplo de uso de la función
+	int saludPersonaje = 50; 
+	verificarSaludPersonaje(saludPersonaje);
+
+	return 0;
+}
