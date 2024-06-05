@@ -3,29 +3,28 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/ActorComponent.h"
-#include "CheckDeVida.generated.h"
-
+#include "GameFramework/Actor.h"
+#include "ItemBase.generated.h"
+#include "Components/StaticMeshComponent.h"
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class THEORYREPOSITORY_API UCheckDeVida : public UActorComponent
+class THEORYREPOSITORY_API AItemBase : public AActor
 {
 	GENERATED_BODY()
 
-public:	
+public:
 	// Sets default values for this component's properties
-	UCheckDeVida();
+	AItemBase();
 
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
-	int32 Health;
-	UFUNCTION(BlueprintCallable, Category = "Health")
-	void CheckHealth();
+	UPROPERTY(VisibleAnywhere)
+	UStaticMeshComponent* BoxComponent;
+	
 };
