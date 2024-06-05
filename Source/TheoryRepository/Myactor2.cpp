@@ -53,6 +53,18 @@ void Verifyenergy(int& energy, int energyrequired) {
 	
 	}
 		
+}
 
+int main() {
+	int playerenergy = 100;//Base energy of Player
+	int energyforaction = 40;//Energy required to do the action
 
+	//Verifies energy quantities
+	
+	Verifyenergy(playerenergy, energyforaction);
+	
+	//Show Energy left
+	std::count << " Energy remaining " << playerenergy << std::endl;
+
+	return 0;
 }
