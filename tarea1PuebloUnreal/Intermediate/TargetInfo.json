@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TheoryRepository",
+			"Path": "..\\Source\\TheoryRepository.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TheoryRepositoryEditor",
+			"Path": "..\\Source\\TheoryRepositoryEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
