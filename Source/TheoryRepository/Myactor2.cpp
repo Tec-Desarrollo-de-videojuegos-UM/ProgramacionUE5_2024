@@ -28,10 +28,10 @@ void AMyactor2::Tick(float DeltaTime)
 //Function for player HP
 void VerifyHealth(int health) {
 	if (health <= 0) {
-		std::cout << " Player is dead " << std::end1;
+		std::cout << " Player is dead " << std::endl;
 	}
 	else { 
-		std::cout << " Player is still alive " << std::end1;
+		std::cout << " Player is still alive " << std::endl;
 	}
 }
 int main() {
@@ -39,4 +39,20 @@ int main() {
 	VerifyHealth(HealthCharacter);
 
 	return 0;
+}
+//Function dedicated to verify player energy
+
+void Verifyenergy(int& energy, int energyrequired) {
+
+	if (energy >= energyrequired) {
+		energy -= energyrequired;//reduces the energy
+		std::count << " Action can be done " << std::endl;
+	}
+	else {
+		std::count << " Action cant be done " << std::endl;
+	
+	}
+		
+
+
 }
