@@ -2,6 +2,7 @@
 
 
 #include "MyActor.h"
+#include <iostream>
 
 
 // Sets default values
@@ -31,7 +32,7 @@ void CheckHealth(int Health) {
 
 }
 
-void CheckEnergy(int& Energy, int energyrequierd) {
+void CheckEnergy(int& Energy, int energyrequierd) { // el ampersan es utilziado para encontrar el lugar de esa variable especificamente en la memoria
 
 	if (Energy >= energyrequierd) {
 		Energy -= energyrequierd;
@@ -42,7 +43,7 @@ void CheckEnergy(int& Energy, int energyrequierd) {
 	}
 }
 
-int main() {
+int main() { // int main es igual a begin play
 
 	int HealthCharacter = 50;
 	CheckHealth;

@@ -5,14 +5,14 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/BoxComponent.h"
-#include "MyActor.generated.h"
+#include "MyActor.generated.h" // aca esta todo lol
 
-UCLASS()
+UCLASS(Blueprintable)
 class THEORYREPOSITORY_API AMyActor : public AActor
 {
 	GENERATED_BODY()
 
-public:
+public: // se pueden acceder de todos lados estas variables y con las que esten en privado pasa al contrario
 	// Sets default values for this actor's properties
 	AMyActor();
 	int32 vida;
@@ -20,7 +20,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 
-protected:
+protected: 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
