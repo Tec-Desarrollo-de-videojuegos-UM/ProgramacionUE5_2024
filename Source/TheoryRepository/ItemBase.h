@@ -28,9 +28,10 @@ public:
 	UStaticMesh* StaticMeshObject;
 	UPROPERTY(EditAnywhere)
 	UBoxComponent* CollisionBox;
-	
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString name;
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 amount;
 
 protected:
