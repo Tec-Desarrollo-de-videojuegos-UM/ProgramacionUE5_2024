@@ -46,7 +46,7 @@ void CheckEnergy(int& Energy, int energyrequierd) { // el ampersan es utilziado 
 int main() { // int main es igual a begin play
 
 	int HealthCharacter = 50;
-	CheckHealth;
+	CheckHealth(HealthCharacter);
 
 	int playerenergy = 100;
 	int energyforaction = 40;
@@ -57,6 +57,8 @@ int main() { // int main es igual a begin play
 
 
 }
+
+
 
 
 // Called every frame

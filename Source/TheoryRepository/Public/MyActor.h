@@ -15,14 +15,13 @@ class THEORYREPOSITORY_API AMyActor : public AActor
 public: // se pueden acceder de todos lados estas variables y con las que esten en privado pasa al contrario
 	// Sets default values for this actor's properties
 	AMyActor();
-	int32 vida;
+	int32 Health;
 	int32 energia;
 	virtual void Tick(float DeltaTime) override;
 
 
 protected: 
 	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
 
 
 public:
