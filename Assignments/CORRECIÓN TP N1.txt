@@ -1,0 +1,17 @@
+1) Clonar el repositorio de la organización de la Facultad que se llama "Introducción a los VJ 2024" (10pts)
+10pts
+
+2) Crear un rama con tu nombre y apellido(20pts)
+
+20pts
+
+3) En tu rama crear una carpeta con tu nombre (10pts)
+	Dentro de tu carpeta debes agregar dos carpetas con los siguientes títulos "Trabajos Prácticos" y "Actividades". (5pts)
+	En cada una de sus carpetas debes agregar los respectivos archivos de la materia de "Introducción a los videojuegos" (hacer un commit por cada archivo que subas) (5pts)
+
+4) Subir tus cambios al repositorio. (20pts)
+Uso del ingles obligatorio en los commits 
+20pts 
+
+Muy bien la descrición del commit en inglés. 
+60pts
