@@ -29,17 +29,10 @@ void ACharacterHealth::Tick(float DeltaTime)
 //
 void ACharacterHealth::CheckHealth(int Health) {
 	if (Health > 0) {
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("El personaje sigue vivo"));
+		GEngine->AddOnScreenDebugMessage(-1,5, FColor::Green, TEXT("El personaje sigue vivo"));
 	}
 	else {
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("El personaje ha muerto"));
+		GEngine->AddOnScreenDebugMessage(-1,5, FColor::Red, TEXT("El personaje ha muerto"));
 	}
 }
 
-int main() {
-	// Ejemplo de uso de la función
-	int saludPersonaje = 50; 
-	verificarSaludPersonaje(saludPersonaje);
-
-	return 0;
-}
