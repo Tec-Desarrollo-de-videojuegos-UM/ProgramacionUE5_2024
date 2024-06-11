@@ -7,7 +7,7 @@
 #include "InventoryComponent.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class THEORYREPOSITORY_API UInventoryComponent : public UActorComponent
 {
 	GENERATED_BODY()
@@ -32,7 +32,4 @@ public:
 	TArray<FString> itemName;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<int32> itemAmount;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TMap<FString, int32> inventory;
 };
