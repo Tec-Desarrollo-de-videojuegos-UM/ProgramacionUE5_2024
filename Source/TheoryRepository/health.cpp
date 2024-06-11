@@ -11,18 +11,33 @@ Uhealth::Uhealth()
 	PrimaryComponentTick.bCanEverTick = true;
 
 }
-void Uhealth::calculatelife(int32 newLife) {
-	 if (newLife <= 0)
-	 {
-		 
-			 GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Blue, TEXT("Su jugador ha muerto"));
-		 
-	 }
-	 else {
-		 GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Blue, TEXT("Su jugador sige vivo"));
+void Uhealth::CheckHealth()
+{
+	if (health > 0)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("Su personaje esta vivo"));
 
-	 }
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("Su personaje ha muerto"));
+
+	}
+		
 }
+void Uhealth::UseStamina(float StaminaToUse)
+{
+	if (stamina <= 0)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("NO tienes estamina"));
+
+	}
+	else
+	{
+		stamina = stamina - StaminaToUse
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("Tiene stamina"));
+
+	}
 
 // Called when the game starts
 void Uhealth::BeginPlay()

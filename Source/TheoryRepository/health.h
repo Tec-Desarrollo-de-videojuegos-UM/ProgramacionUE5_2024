@@ -16,7 +16,10 @@ public:
 	// Sets default values for this component's properties
 	Uhealth();
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite) int32 life
-	UFUNCTION(BlueprintCallable) void calculatelife(int32 newlife);
+	UPROPERTY(BlueprintCallable)
+	void CheckHealth();
+	UPROPERTY(BlueprintCallable)
+	void UseStamina(float StaminaToUse);
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -24,5 +27,12 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-	
+
+private:
+	UPROPERTY(EditAnywhere)
+	float health;
+	UPROPERTY(EditAnywhere)
+	float stamina;
+
+
 };
