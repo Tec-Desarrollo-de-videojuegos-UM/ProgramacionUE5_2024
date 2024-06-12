@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include <Components/BoxComponent.h>
 #include "Item.generated.h"
 
 UCLASS()
@@ -22,5 +23,14 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+private:
+	UPROPERTY(EditAnywhere)
+	UBoxComponent* BoxCollider;
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString itemName;
+		UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	int32 itemAmmount;
 
 };
