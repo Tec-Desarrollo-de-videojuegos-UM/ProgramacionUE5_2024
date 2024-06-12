@@ -15,9 +15,9 @@ class THEORYREPOSITORY_API UAtributteState : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UAtributteState();
-	UNFUNCTION (BlueprintCallable)
+	UFUNCTION (BlueprintCallable)
 	void CheackHealt();
-	UNFUNCTION (BlueprintCallable)
+	UFUNCTION (BlueprintCallable)
 	void UseStamina(float StaminaToUse);
 
 protected:

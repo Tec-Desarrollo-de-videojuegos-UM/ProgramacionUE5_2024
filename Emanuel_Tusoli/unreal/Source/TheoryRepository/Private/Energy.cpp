@@ -12,11 +12,12 @@ UEnergy::UEnergy()
 
 	// ...
 }
-void UEnergy::calculateEnergy (int32 Energy)
-if energy <= 0
-{
-	GEngine->AddOnScreenDebugMessage (-1,2, FColor::Blue)
+void UEnergy::calculateEnergy(int32 Energy) {
+	if (Energy <= 0)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Blue, TEXT("SI"));
 
+	}
 }
 
 

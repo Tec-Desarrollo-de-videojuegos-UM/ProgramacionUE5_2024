@@ -17,14 +17,13 @@ void UAtributteState::CheackHealt()
 {
 	if (healt > 0)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Cyan, TEXT("The character is alive");
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Cyan, TEXT("The character is alive"));
 	}
 	else
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Black, TEXT("The character is dead"));
 	}
 
-	return false;
 }
 
 void UAtributteState::UseStamina(float StaminaToUse)
