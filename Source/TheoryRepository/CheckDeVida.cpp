@@ -3,6 +3,7 @@
 
 #include "CheckDeVida.h"
 
+<<<<<<< Updated upstream
 // Sets default values for this component's properties
 UCheckDeVida::UCheckDeVida()
 {
@@ -43,3 +44,38 @@ void UCheckDeVida::CheckHealth()
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, TEXT("Eljugador esta muerto"));
 	}
 }
+=======
+// Sets default values
+ACheckDeVida::ACheckDeVida()
+{
+ 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+	Health = 100;
+}
+
+// Called when the game starts or when spawned
+void ACheckDeVida::BeginPlay()
+{
+	Super::BeginPlay();
+	
+}
+
+// Called every frame
+void ACheckDeVida::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+}
+void ACheckDeVida::RevisarVida()
+{
+	if (Health > 0)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, TEXT("El pj esta vivo"));
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, TEXT("El pj esta muerto"));
+	}
+}
+
+>>>>>>> Stashed changes
