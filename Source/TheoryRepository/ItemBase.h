@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include <Components/BoxComponent.h>
 #include "ItemBase.generated.h"
+
 
 UCLASS()
 class THEORYREPOSITORY_API AItemBase : public AActor
@@ -13,21 +15,15 @@ class THEORYREPOSITORY_API AItemBase : public AActor
 	
 public:	
 	// Sets default values for this actor's properties
-	AItemBase();
-	//called every frane
-	virtual void Tick(float DeltaTime) override;
-	UFUNCTION(BlueprintCallable)
-	FString ChangeName(FString NewName);
-	UFUNCTION(BlueprintCallable)
-	int32 ChangeAmount(int32 NewAmount);
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+	AItemBase(); 
+private:
+	UPROPERTY(EditAnywhere)
+	UBoxComponent* BoxCollaider;
 
-public:	
-	FString name;
-	UPROPERTY(BlueprintReadOnly)
-	int32 amount;
-	
+	UPROPERTY(EditAnywhere)
+	FString itemName;
+
+	UPROPERTY(EditAnywhere)
+	int32 itemAmount;
 
 };
