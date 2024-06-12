@@ -15,6 +15,10 @@ class THEORYREPOSITORY_API UAtributteState : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UAtributteState();
+	UFUNCTION(BlueprintCallable)
+	void CheckHealth();
+	UFUNCTION(BlueprintCallable)
+	bool UseStamina(float StaminaToUse);
 
 protected:
 	// Called when the game starts
@@ -23,6 +27,14 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
+private:
+	UPROPERTY(EditAnywhere)
+	float health;
+
+	UPROPERTY(EditAnywhere)
+	float stamina;
+
 
 		
 };

@@ -13,6 +13,35 @@ UAtributteState::UAtributteState()
 	// ...
 }
 
+void UAtributteState::CheckHealth()
+{
+	if (health > 0)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Cyan, TEXT("the character is alive"));
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("the character has died"));
+	}
+
+	
+}
+
+bool UAtributteState::UseStamina(float StaminaToUse)
+{
+	if (stamina <= 0)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Cyan, TEXT("there is not enough stamina"));
+		return false;
+	}
+	else
+	{
+		stamina = stamina - StaminaToUse;
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("use stamina""there is not enough stamina"));
+		return true;
+	}
+}
+
 
 // Called when the game starts
 void UAtributteState::BeginPlay()
