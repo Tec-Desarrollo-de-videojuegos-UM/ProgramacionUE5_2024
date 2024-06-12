@@ -13,6 +13,39 @@ UAtributteState::UAtributteState()
 	// ...
 }
 
+void UAtributteState::CheckHealth()
+{
+
+  if (health >=0)
+
+ {
+	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT ("El personaje está vivo"));
+ }
+
+else
+ {
+	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("El personaje ha merto"));
+ }
+}
+
+
+bool UAtributteState::UseStamina(float StaminaToUse)
+{
+	if (stamina <= 0)
+	{ 
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT ("No hay estamina suficiente"));
+	return false;
+	}
+
+	else
+	{
+		stamina = stamina - StaminaToUse;
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("Usar estamina"));
+		return true;
+	}
+}
+
+
 
 // Called when the game starts
 void UAtributteState::BeginPlay()

@@ -16,6 +16,13 @@ public:
 	// Sets default values for this component's properties
 	UAtributteState();
 
+	UFUNCTION (BluePrintCallable)
+	void CheckHealth();
+
+	UFUNCTION (BluePrintCallable)
+	bool UseStamina(float StaminaToUse);
+
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -23,6 +30,12 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
+private:
+	UPROPERTY (EditAnyWhere)
+	float health;
+	UPROPERTY (EditAnyWhere)
+	float stamina;
 
 		
 };
