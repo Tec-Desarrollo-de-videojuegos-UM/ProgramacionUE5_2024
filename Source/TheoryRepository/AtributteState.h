@@ -2,6 +2,7 @@
 
 #pragma once
 
+
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "AtributteState.generated.h"
@@ -18,9 +19,10 @@ public:
 
 	//funciones
 	UFUNCTION(BlueprintCallable)
+	void CheckHealth() const;
 	void CheckHealth();
 	UFUNCTION(BlueprintCallable)
-	void UseEnergy(float EnergyToUse);
+	bool UseEnergy(float EnergyToUse);
 
 
 protected:

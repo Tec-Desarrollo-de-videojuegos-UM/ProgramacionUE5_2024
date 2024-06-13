@@ -1,6 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "MyClass.h"
+// Fill out your copyright notice in the Description page of Project Settings.
+
+
 #include "AtributteState.h"
 
 // Sets default values for this component's properties
@@ -24,23 +26,23 @@ void UAtributteState::CheckHealth()
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("El personaje esta muerto"));
 	}
-	
+
 }
 
 bool UAtributteState::UseEnergy(float EnergyToUse)
 {
 	if (energy <= 0)
 	{
-		
+
 		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("No hay suficiente energia"));
 		return false;
-	}    
+	}
 	else
 	{
 		energy = energy - EnergyToUse;
 		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("Se puede realizar la acción"));
 	}
-	
+
 }
 
 
@@ -51,7 +53,7 @@ void UAtributteState::BeginPlay()
 	Super::BeginPlay();
 
 	// ...
-	
+
 }
 
 
