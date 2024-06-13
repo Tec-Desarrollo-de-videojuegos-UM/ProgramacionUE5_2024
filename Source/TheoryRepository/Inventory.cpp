@@ -9,31 +9,22 @@ UInventory::UInventory()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
-	// ...
 }
 
-
-// Called when the game starts
-void UInventory::BeginPlay()
+void UInventory::AddItemToInventory(FString ItemName, int32 ItemAmount)
 {
-	Super::BeginPlay();
-
-	// ...
-	
-}
-
-
-// Called every frame
-void UInventory::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
-{
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-	// ...
-}
-
-void UInventory::AddItemToInventory(FString NewItemName, int32 NewItemAmount)
-{
-	
+	if (itemNameList.Contains(ItemName))
+	{
+		if (itemAmountList.IsValidIndex(itemNameList.Find(ItemName)))
+		{
+			itemAmountList[itemNameList.Find(ItemName)] = itemAmountList[itemNameList.Find(ItemName)] + ItemAmount;
+		}
+		
+	}
+	else
+	{
+		itemNameList.Add(ItemName);
+		itemAmountList.Add(ItemAmount);
+	}
 }
 

@@ -1,42 +1,33 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "comprobarvida.h"
+#include "comprobarVida.h"
 
-// Sets default values
-Acomprobarvida::Acomprobarvida()
-{
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-	VidaMaxima = 100.0f;
-	VidaActual = VidaMaxima;
 
-}
 
-// Called when the game starts or when spawned
-void Acomprobarvida::BeginPlay()
+void UcomprobarVida::CheckVida()
 {
-	Super::BeginPlay();
-	
-	
-}
-void Acomprobarvida::RecibirDaño(float Cantidad)
-{
-	VidaActual -= Cantidad;
-	if (VidaActual > 0.0f)
+	if (health > 0)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Orange, TEXT("El personaje ha muerto"));
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Orange, TEXT("El personaje esta vivo"));
 	}
 	else
 	{
-		GEngine ->AddOnScreenDebugMessage(-1, 5, FColor::Orange, TEXT("El personaje esta vivo"));
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Orange, TEXT("El personaje esta muerto"));
 	}
 }
 
-// Called every frame
-void Acomprobarvida::Tick(float DeltaTime)
+bool UcomprobarVida::UseStamina(float EstaminaUsar)
 {
-	Super::Tick(DeltaTime);
-
+	if (stamina <= 0)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Orange, TEXT("El personaje no tiene estamina"));
+		return false;
+	}
+	else
+	{
+		stamina = stamina - EstaminaUsar;
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Orange, TEXT("El personaje tiene estamina"));
+		return true;
+	}
 }
-

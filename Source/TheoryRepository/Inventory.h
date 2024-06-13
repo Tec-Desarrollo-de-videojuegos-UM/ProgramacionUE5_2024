@@ -7,30 +7,23 @@
 #include "Inventory.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class THEORYREPOSITORY_API UInventory : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:	
+public:
 	// Sets default values for this component's properties
 	UInventory();
+	UFUNCTION(BlueprintCallable)
+	void AddItemToInventory(FString ItemName, int32 ItemAmount);
 
-protected:
-	// Called when the game starts
-	virtual void BeginPlay() override;
-
-public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-	void AddItemToInventory(FString NewItemName, int32 NewItemAmount);
-
-public: 
+public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<FString> itemName;
+	TArray<FString> itemNameList;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<int32> itemAmount;
-     
+	TArray<int32> itemAmountList;
+
 };
