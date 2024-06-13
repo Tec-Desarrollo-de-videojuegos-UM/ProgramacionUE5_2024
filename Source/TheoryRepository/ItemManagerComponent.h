@@ -16,13 +16,12 @@ public:
 	// Sets default values for this component's properties
 	UItemManagerComponent();
 
-protected:
-	// Called when the game starts
-	virtual void BeginPlay() override;
+	UFUNCTION(BlueprintCallable)
+	void AddItemToInventory(FString ItemName, int32 ItemAmount);
 
-public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
-		
+public:
+	UPROPERTY(EditAnywhere)
+	TArray<FString> itemNameList;
+	UPROPERTY(EditAnywhere)
+	TArray<int32> itemAmountList;
 };
