@@ -25,13 +25,13 @@ void UAttributeState::CheckHealth()
 	}
 	
 	
-	return false;
+
 }
 
 
 void UAttributeState::StaminaUse(float StaminaToUse)
 {
-	if (stamina <0 0) {
+	if (stamina <= 0) {
 
 		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("Action cant be done"));
 
