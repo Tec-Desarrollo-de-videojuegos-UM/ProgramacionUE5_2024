@@ -16,17 +16,20 @@ class THEORYREPOSITORY_API AMainItem : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AMainItem();
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	FString itemName;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	int32 itemAmount;
 
 
 private:
 	UPROPERTY(EditAnywhere)
 	UBoxComponent* BoxColider;
 
-	UPROPERTY(EditAnywhere)
-	FString itemName;
-
-	UPROPERTY(EditAnywhere)
-	int32 itemAmount;
+	
 	
 
 };
