@@ -21,11 +21,19 @@ void UInventoryComponent::AddItemToInventory(FString itemName, int32 itemAmount)
 			itemAmountList[itemNameList.Find(itemName)] = itemAmountList[itemNameList.Find(itemName)] + itemAmount;
 		}
 	}
-}
-else 
-{
-	itemNameList.Add(itemName);
-	itemAmountList.Add(itemAmount);
+
+	else
+	{
+		itemNameList.Add(itemName);
+		itemAmountList.Add(itemAmount);
+	}
+
+
+
 
 }
 
+
+
+
+																										
