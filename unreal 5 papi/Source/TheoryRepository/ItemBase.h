@@ -14,9 +14,13 @@ class THEORYREPOSITORY_API AItemBase : public AActor
 
 
 public:
+    //Sets default values for this actors properties
     AItemBase();
 
-protected:
-    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Item")
-    UBoxComponent* UBoxCollision;
+private:
+    UBoxComponent* BoxCollider;
+
+    FString itembase;
+    int32 itemamount;
+
 };

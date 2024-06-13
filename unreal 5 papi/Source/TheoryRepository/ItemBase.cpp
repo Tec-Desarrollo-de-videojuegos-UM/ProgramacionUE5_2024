@@ -1,18 +1,15 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "ItemBase.h"
-#include <Components/BoxComponent.h>
+
 
 AItemBase::AItemBase()
 {
-    // Crear el componente de caja de colisión
-    AItemBase::UBoxCollision = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxCollision"));
+    //Set this actor to call Tick() every frame. You can turn this off to improve performance if you don´t need it.
+    PrimaryActorTick.bCanEverTick = true;
+    BoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxCollision"));
 
-    // Establecer el componente de caja de colisión como el componente raíz
-    RootComponent = AItemBase::UBoxCollision;
+    RootComponent = BoxCollider;
 
-    // Configurar el tamaño de la caja de colisión
-    UBoxCollision->InitBoxExtent(FVector(50.0f, 50.0f, 50.0f)); // Tamaño de la caja de colisión (ancho, largo, alto)
+
 }
-
-
