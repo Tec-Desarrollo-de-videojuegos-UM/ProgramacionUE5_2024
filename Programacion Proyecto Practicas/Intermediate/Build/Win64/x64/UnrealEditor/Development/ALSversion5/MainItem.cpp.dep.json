@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\usuario\\documents\\unreal projects\\advancedlocomotionsystemv\\source\\alsversion5\\mainitem.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\usuario\\documents\\unreal projects\\advancedlocomotionsystemv\\intermediate\\build\\win64\\x64\\alsversion5editor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\usuario\\documents\\unreal projects\\advancedlocomotionsystemv\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\alsversion5\\definitions.alsversion5.h",
+            "c:\\users\\usuario\\documents\\unreal projects\\advancedlocomotionsystemv\\source\\alsversion5\\mainitem.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
+            "c:\\users\\usuario\\documents\\unreal projects\\advancedlocomotionsystemv\\intermediate\\build\\win64\\unrealeditor\\inc\\alsversion5\\uht\\mainitem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
