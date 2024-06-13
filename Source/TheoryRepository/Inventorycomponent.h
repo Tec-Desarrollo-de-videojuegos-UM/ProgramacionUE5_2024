@@ -24,11 +24,12 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* TishTickFunction) override;
 
 public:
-	UPROPERTY(EditAnyware, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<FString> itemName;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	TArray<int32> itemAmount;
 
-	UPROPERTY(EditAnyware, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TMap<FString, int32> inventory; 
 };

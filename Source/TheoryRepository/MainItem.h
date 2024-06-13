@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include <Components/BoxComponent.h>
 #include "MainItem.generated.h"
+
 
 UCLASS()
 class THEORYREPOSITORY_API AMainItem : public AActor
@@ -13,14 +15,15 @@ class THEORYREPOSITORY_API AMainItem : public AActor
 	
 public:	
 	// Sets default values for this actor's properties
-	AMainItem();
+	AMainItem(); 
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+private:
+	UPROPERTY(EditAnywhere)
+	UBoxComponent* BoxCollider; 
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	UPROPERTY(EditAnywhere)
+	FString itemName;
+	UPROPERTY(EditAnywhere)
+	int32 itemAmount;
 
 };

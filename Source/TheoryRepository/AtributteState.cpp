@@ -25,16 +25,18 @@ void UAtributteState::CheckHealth()
 	}
 }
 
-void UAtributteState::UseStamina(float StaminaToUse)
+bool UAtributteState::UseStamina(float StaminaToUse)
 {
-	if (stamina > 0)
+	if (stamina <= 0)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Emerald, TEXT("usar estamina"));
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("no hay suficiente estamina"));
+		return false;
 	}
 	else
 	{	
 		stamina = stamina - StaminaToUse;
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("no hay estamina suficiente"));
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Yellow, TEXT("Usar estamina"));
+		return true;
 	}
 }
 

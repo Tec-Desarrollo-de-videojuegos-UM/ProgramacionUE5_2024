@@ -19,7 +19,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void CheckHealth();
 	UFUNCTION(BlueprintCallable)
-	void UseStamina(float StaminaToUse);
+	bool UseStamina(float StaminaToUse);
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
