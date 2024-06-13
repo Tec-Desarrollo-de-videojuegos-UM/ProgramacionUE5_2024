@@ -19,8 +19,7 @@ public:
 
 	//funciones
 	UFUNCTION(BlueprintCallable)
-	void CheckHealth() const;
-	void CheckHealth();
+    void CheckHealth();
 	UFUNCTION(BlueprintCallable)
 	bool UseEnergy(float EnergyToUse);
 

@@ -20,11 +20,11 @@ void UAtributteState::CheckHealth()
 {
 	if (health >= 0)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("El personaje esta vivo"));
+		GEngine->AddOnScreenDebugMessage(-1,5,FColor::Blue,TEXT("El personaje esta vivo"));
 	}
 	else
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("El personaje esta muerto"));
+		GEngine->AddOnScreenDebugMessage(-1,5,FColor::Red,TEXT("El personaje esta muerto"));
 	}
 
 }
@@ -34,13 +34,15 @@ bool UAtributteState::UseEnergy(float EnergyToUse)
 	if (energy <= 0)
 	{
 
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("No hay suficiente energia"));
+		GEngine->AddOnScreenDebugMessage(-1,5,FColor::Blue,TEXT("No hay suficiente energia"));
 		return false;
+		
 	}
 	else
 	{
 		energy = energy - EnergyToUse;
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("Se puede realizar la acción"));
+		GEngine->AddOnScreenDebugMessage(-1,5,FColor::Red,TEXT("Se puede realizar la accion"));
+		return true;
 	}
 
 }
