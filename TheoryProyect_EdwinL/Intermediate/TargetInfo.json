@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TheoryProyect_EdwinL",
+			"Path": "..\\Source\\TheoryProyect_EdwinL.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TheoryProyect_EdwinLEditor",
+			"Path": "..\\Source\\TheoryProyect_EdwinLEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

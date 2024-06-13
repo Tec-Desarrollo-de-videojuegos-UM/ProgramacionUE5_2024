@@ -1,0 +1,25 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TheoryProyect_EdwinL.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\TheoryProyect_EdwinLEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\Atributes.gen.cpp.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\Inventory.gen.cpp.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\ItemBase.gen.cpp.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\TheoryProyect_EdwinL.init.gen.cpp.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\TheoryProyect_EdwinLCharacter.gen.cpp.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\TheoryProyect_EdwinLGameMode.gen.cpp.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\TheoryProyect_EdwinLPlayerController.gen.cpp.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\Atributes.cpp.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\Inventory.cpp.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\ItemBase.cpp.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\TheoryProyect_EdwinL.cpp.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\TheoryProyect_EdwinLCharacter.cpp.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\TheoryProyect_EdwinLGameMode.cpp.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\TheoryProyect_EdwinLPlayerController.cpp.obj"
+"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\Default.rc2.res"
+/OUT:"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\UnrealEditor-TheoryProyect_EdwinL.lib"

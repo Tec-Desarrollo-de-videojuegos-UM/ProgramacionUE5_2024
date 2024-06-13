@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TheoryProyect_EdwinL.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheoryProyect_EdwinL.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TheoryProyect_EdwinLEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TheoryProyect_EdwinL">
+      <UniqueIdentifier>{30DCD394-31AF-3F21-A66B-47B515E860D8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TheoryProyect_EdwinL\Atributes.cpp">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheoryProyect_EdwinL\Atributes.h">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheoryProyect_EdwinL\Inventory.cpp">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheoryProyect_EdwinL\Inventory.h">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheoryProyect_EdwinL\ItemBase.cpp">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheoryProyect_EdwinL\ItemBase.h">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheoryProyect_EdwinL\MyItemBaseDerivated.cpp">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheoryProyect_EdwinL\MyItemBaseDerivated.h">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\TheoryProyect_EdwinL\TheoryProyect_EdwinL.Build.cs">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TheoryProyect_EdwinL\TheoryProyect_EdwinL.cpp">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheoryProyect_EdwinL\TheoryProyect_EdwinL.h">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheoryProyect_EdwinL\TheoryProyect_EdwinLCharacter.cpp">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheoryProyect_EdwinL\TheoryProyect_EdwinLCharacter.h">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheoryProyect_EdwinL\TheoryProyect_EdwinLGameMode.cpp">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheoryProyect_EdwinL\TheoryProyect_EdwinLGameMode.h">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheoryProyect_EdwinL\TheoryProyect_EdwinLPlayerController.cpp">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheoryProyect_EdwinL\TheoryProyect_EdwinLPlayerController.h">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
