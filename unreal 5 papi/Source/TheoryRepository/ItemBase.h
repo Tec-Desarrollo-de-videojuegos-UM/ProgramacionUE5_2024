@@ -17,10 +17,14 @@ public:
     //Sets default values for this actors properties
     AItemBase();
 
-private:
-    UBoxComponent* BoxCollider;
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	FString itembase;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	int32 itemamount;
 
-    FString itembase;
-    int32 itemamount;
+private:
+    UPROPERTY(EditAnywhere)
+    UBoxComponent* BoxCollider;
 
 };
