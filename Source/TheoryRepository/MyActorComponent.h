@@ -16,6 +16,9 @@ public:
 	// Sets default values for this component's properties
 	UMyActorComponent();
 
+	void CheckHealth();
+	void UseStamina(float StaminaToUse);
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -23,6 +26,12 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
+private:
+	
+	float health;
+	float stamina;
+	
 
 		
 };

@@ -13,6 +13,29 @@ UMyActorComponent::UMyActorComponent()
 	// ...
 }
 
+void UMyActorComponent::CheckHealth()
+{
+	if (health > 0)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("El personaje esta vivo"));
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("El personaje esta muerto"));
+}
+
+void UMyActorComponent::UseStamina(float StaminaToUse)
+{
+	if (stamina > 0)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("Usar stamina"));
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("No hay stamina suficiente"));
+	}
+}
+
 
 // Called when the game starts
 void UMyActorComponent::BeginPlay()
