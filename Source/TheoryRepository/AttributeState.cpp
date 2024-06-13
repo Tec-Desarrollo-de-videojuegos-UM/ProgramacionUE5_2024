@@ -29,16 +29,17 @@ void UAttributeState::CheckHealth()
 }
 
 
-void UAttributeState::StaminaUse(float StaminaToUse)
+bool UAttributeState::StaminaUse(float StaminaToUse)
 {
 	if (stamina <= 0) {
 
 		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("Action cant be done"));
-
+		return false;
 	}
 	else {
 		stamina = stamina - StaminaToUse;
 		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("Action can be done"));
+		return true;
 	}
 }
 
