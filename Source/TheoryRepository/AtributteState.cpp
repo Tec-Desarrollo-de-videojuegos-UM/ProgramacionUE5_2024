@@ -19,12 +19,12 @@ void UAtributteState::CheckHealth()
   if (health >=0)
 
  {
-	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT ("El personaje está vivo"));
+	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT ("El personaje esta vivo"));
  }
 
 else
  {
-	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("El personaje ha merto"));
+	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("El personaje ha muerto"));
  }
 }
 
