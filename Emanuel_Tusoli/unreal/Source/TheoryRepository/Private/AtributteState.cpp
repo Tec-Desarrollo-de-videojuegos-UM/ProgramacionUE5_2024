@@ -26,16 +26,18 @@ void UAtributteState::CheackHealt()
 
 }
 
-void UAtributteState::UseStamina(float StaminaToUse)
+bool UAtributteState::UseStamina(float StaminaToUse)
 {
 	if (stamina <= 0)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("Not enough stamina"));
+		return false;
 	}
 	else
 	{
 		stamina = stamina - StaminaToUse;
 		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Emerald, TEXT("Use stamina"));
+		return true;
 	}
 }
 

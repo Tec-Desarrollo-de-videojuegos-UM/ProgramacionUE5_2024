@@ -18,7 +18,7 @@ public:
 	UFUNCTION (BlueprintCallable)
 	void CheackHealt();
 	UFUNCTION (BlueprintCallable)
-	void UseStamina(float StaminaToUse);
+	bool UseStamina(float StaminaToUse);
 
 protected:
 	// Called when the game starts
