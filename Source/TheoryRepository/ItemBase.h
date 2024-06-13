@@ -30,15 +30,19 @@ protected:
 	virtual void BeginPlay() override;
 
 
-public:
-
-	UStaticMesh* StaticMeshObject;
+private:
 
 	UPROPERTY(EditAnywhere)
 	UBoxComponent* CollisionBox;
+
+	UPROPERTY(EditAnywhere)
 	FString name;
-	UPROPERTY(BlueprintReadOnly)
+
+	UPROPERTY(EditAnywhere)
 	int32 amount;
+	
+	//UPROPERTY(BlueprintReadOnly)
+	//UStaticMesh* StaticMeshObject;
 
 
 };
