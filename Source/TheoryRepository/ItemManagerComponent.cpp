@@ -13,6 +13,25 @@ UItemManagerComponent::UItemManagerComponent()
 	// ...
 }
 
+void UItemManagerComponent::AddItemToInventory(FString itemName, int32 itemAmmount)
+{
+	if (itemNameList.Contains(itemName))
+	{
+    if (itemAmmountList.IsValidIndex(itemNameList.Find(itemName)))
+    {
+		itemAmmountList[itemNameList.Find(itemName)] = itemAmmountList[itemNameList.Find(itemName)] + itemAmmount;
+    }
+
+	}
+	else
+	{
+		itemNameList.Add(itemName);
+		itemAmmountList.Add(itemAmmount);
+
+	}
+
+}
+
 
 // Called when the game starts
 void UItemManagerComponent::BeginPlay()

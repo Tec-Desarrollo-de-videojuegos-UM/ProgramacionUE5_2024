@@ -15,7 +15,8 @@ class THEORYREPOSITORY_API UItemManagerComponent : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UItemManagerComponent();
-
+	UFUNCTION(BlueprintCallable)
+	void AddItemToInventory(FString itemName, int32 itemAmmount );
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -23,6 +24,9 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
+	UPROPERTY(EditAnywhere)
+	TArray<FString> itemNameList;
+	UPROPERTY(EditAnywhere)
+	TArray<int32> itemAmmountList;
 		
 };
