@@ -23,8 +23,8 @@ public:
 public:
 	UStaticMesh* StaticMeshObject;
 	UPROPERTY(EditAnywhere) UBoxComponent* CollisionBox;
-	FString name;
-	UPROPERTY(BlueprintReadOnly) int32 ammount;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite) FString name;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite) int32 ammount;
 
 protected:
 	// Called when the game starts or when spawned
