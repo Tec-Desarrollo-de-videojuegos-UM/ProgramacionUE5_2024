@@ -16,8 +16,10 @@ public:
 	// Sets default values for this component's properties
 	UMyActorComponent();
 
+	UFUNCTION(BlueprintCallable)
 	void CheckHealth();
-	void UseStamina(float StaminaToUse);
+	UFUNCTION(BlueprintCallable)
+	bool UseStamina(float StaminaToUse);
 
 protected:
 	// Called when the game starts
@@ -29,7 +31,9 @@ public:
 
 private:
 	
+	UPROPERTY(EditAnywhere)
 	float health;
+	UPROPERTY(EditAnywhere)
 	float stamina;
 	
 

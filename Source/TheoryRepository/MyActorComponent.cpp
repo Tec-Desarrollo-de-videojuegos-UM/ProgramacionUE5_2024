@@ -22,17 +22,21 @@ void UMyActorComponent::CheckHealth()
 	else
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("El personaje esta muerto"));
+	}
 }
 
-void UMyActorComponent::UseStamina(float StaminaToUse)
+bool UMyActorComponent::UseStamina(float StaminaToUse)
 {
-	if (stamina > 0)
+	if (stamina <= 0)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("Usar stamina"));
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Blue, TEXT("No hay stamina suficiente"));
+		return false;
 	}
 	else
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("No hay stamina suficiente"));
+		stamina = stamina - StaminaToUse;
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("Usar stamina"));
+		return true;
 	}
 }
 
