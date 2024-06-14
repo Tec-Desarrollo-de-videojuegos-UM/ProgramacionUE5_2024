@@ -11,20 +11,23 @@ class THEORYREPOSITORY_API UHealthComponent : public UActorComponent
     GENERATED_BODY()
 
 public:
-    // Sets default values for this component's properties
+    
     UHealthComponent();
-    UFUNCTION(BlueprintCallable)
+
+    UFUNCTION(BlueprintCallable,Category="Destruido")
     bool Destruido();
 
 protected:
-    // Called when the game starts
+  
     virtual void BeginPlay() override;
 
 public:
-    UFUNCTION(BlueprintCallable, Category = "Health")
-    void TakeDamage(float DamageAmount);
 
 private:
+
     UPROPERTY(EditAnywhere)
-    int32 Health;
+    int32 health;
+
+    UFUNCTION(BlueprintCallable,Category = "CheckIfDestroyed?")
+    void CheckIfDestroyed();
 };

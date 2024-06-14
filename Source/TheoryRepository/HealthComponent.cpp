@@ -1,47 +1,51 @@
-// HealthComponent.cpp
 #include "HealthComponent.h"
+#include "Engine/Engine.h"
 
-// Sets default values for this component's properties
 UHealthComponent::UHealthComponent()
 {
     PrimaryComponentTick.bCanEverTick = false;
-    Health = 100.0f; // Default health value
+    health = 100; // Valor predeterminado de la salud
 }
 
-// Called when the game starts
 void UHealthComponent::BeginPlay()
 {
     Super::BeginPlay();
 }
 
-void UHealthComponent::TakeDamage(float DamageAmount)
+bool UHealthComponent::Destruido()
 {
-    Health -= DamageAmount;
-    if (GEngine) {
-
-        FString DebugMessage = FString: : Printf(TEXT("Daño Causado: %f, Vida Restante: %f"), DamageAmount, Health);
-
-    }
-    CheckIfDestroyed();
-}
-
-
-bool UHealthtComponent : : Destruido()
-{
-    health = health - 10;//resta hp cuando interactua con el objeto
+    health = health - 10;
     if (health > 0)
     {
-        HEngine->AddOnScreenDebugMassage(-1, 5, FColor: : Blue, TEXT("Se quito (-10hp)"));
-
+        if (GEngine)
+        {
+            FString DebugMessage = FString::Printf(TEXT("Hiciste dano a este pobre Objeto, Vida Restante: %d"), health);
+            GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, DebugMessage);
+        }
         return false;
-
     }
     else
     {
-        HEngine->AddOnScreenDebugMassage(-1, 5, FColor: : Blue, TEXT("Se Destruyó"));
-        return true
-
-
-
+        if (GEngine)
+        {
+            FString DebugMessage = FString::Printf(TEXT("Objeto Destruido"));
+            GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, DebugMessage);
+        }
+        return true;
     }
 }
+
+void UHealthComponent::CheckIfDestroyed()
+{
+    if (health <= 0)
+    {
+        if (AActor* Owner = GetOwner())
+        {
+            if (GEngine)
+            {
+                GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Actor destruido"));
+            }
+            Owner->Destroy();
+        }
+    }
+};
