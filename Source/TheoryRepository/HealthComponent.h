@@ -13,6 +13,8 @@ class THEORYREPOSITORY_API UHealthComponent : public UActorComponent
 public:
     // Sets default values for this component's properties
     UHealthComponent();
+    UFUNCTION(BlueprintCallable)
+    bool Destruido();
 
 protected:
     // Called when the game starts
@@ -24,6 +26,5 @@ public:
 
 private:
     UPROPERTY(EditAnywhere)
-    float Health;
-    bool IsDestroyable;
+    int32 Health;
 };
