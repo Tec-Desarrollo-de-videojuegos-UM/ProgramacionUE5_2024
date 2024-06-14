@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\Desktop\\proyectos U5 compilado\\TheoryProyect_EdwinL\\Intermediate\\Build\\BuildRulesProjects\\TheoryProyect_EdwinLModuleRules\\TheoryProyect_EdwinLModuleRules.csproj": {}
+    "D:\\githubfacu\\Programacion2024\\TheoryProyect_EdwinL\\Intermediate\\Build\\BuildRulesProjects\\TheoryProyect_EdwinLModuleRules\\TheoryProyect_EdwinLModuleRules.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\Desktop\\proyectos U5 compilado\\TheoryProyect_EdwinL\\Intermediate\\Build\\BuildRulesProjects\\TheoryProyect_EdwinLModuleRules\\TheoryProyect_EdwinLModuleRules.csproj": {
+    "D:\\githubfacu\\Programacion2024\\TheoryProyect_EdwinL\\Intermediate\\Build\\BuildRulesProjects\\TheoryProyect_EdwinLModuleRules\\TheoryProyect_EdwinLModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Desktop\\proyectos U5 compilado\\TheoryProyect_EdwinL\\Intermediate\\Build\\BuildRulesProjects\\TheoryProyect_EdwinLModuleRules\\TheoryProyect_EdwinLModuleRules.csproj",
+        "projectUniqueName": "D:\\githubfacu\\Programacion2024\\TheoryProyect_EdwinL\\Intermediate\\Build\\BuildRulesProjects\\TheoryProyect_EdwinLModuleRules\\TheoryProyect_EdwinLModuleRules.csproj",
         "projectName": "TheoryProyect_EdwinLModuleRules",
-        "projectPath": "C:\\Users\\pc\\Desktop\\proyectos U5 compilado\\TheoryProyect_EdwinL\\Intermediate\\Build\\BuildRulesProjects\\TheoryProyect_EdwinLModuleRules\\TheoryProyect_EdwinLModuleRules.csproj",
+        "projectPath": "D:\\githubfacu\\Programacion2024\\TheoryProyect_EdwinL\\Intermediate\\Build\\BuildRulesProjects\\TheoryProyect_EdwinLModuleRules\\TheoryProyect_EdwinLModuleRules.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Desktop\\proyectos U5 compilado\\TheoryProyect_EdwinL\\Intermediate\\Build\\BuildRulesProjects\\TheoryProyect_EdwinLModuleRules\\obj\\",
+        "outputPath": "D:\\githubfacu\\Programacion2024\\TheoryProyect_EdwinL\\Intermediate\\Build\\BuildRulesProjects\\TheoryProyect_EdwinLModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\visualstudiocomponentes\\NuGetPackages"

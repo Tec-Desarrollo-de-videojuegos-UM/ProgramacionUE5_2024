@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TheoryProyect_EdwinLModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a88782f823b6e0d7f232403ffed0a2e7c010978")]
 [assembly: System.Reflection.AssemblyProductAttribute("TheoryProyect_EdwinLModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TheoryProyect_EdwinLModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

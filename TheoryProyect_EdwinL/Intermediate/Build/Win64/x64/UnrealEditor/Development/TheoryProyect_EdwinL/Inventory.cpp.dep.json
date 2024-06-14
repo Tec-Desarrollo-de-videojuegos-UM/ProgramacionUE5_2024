@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\pc\\desktop\\proyectos u5 compilado\\theoryproyect_edwinl\\source\\theoryproyect_edwinl\\inventory.cpp",
+        "Source": "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\source\\theoryproyect_edwinl\\inventory.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\pc\\desktop\\proyectos u5 compilado\\theoryproyect_edwinl\\intermediate\\build\\win64\\x64\\theoryproyect_edwinleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\x64\\theoryproyect_edwinleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\pc\\desktop\\proyectos u5 compilado\\theoryproyect_edwinl\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\theoryproyect_edwinl\\definitions.theoryproyect_edwinl.h",
-            "c:\\users\\pc\\desktop\\proyectos u5 compilado\\theoryproyect_edwinl\\source\\theoryproyect_edwinl\\inventory.h",
-            "c:\\users\\pc\\desktop\\proyectos u5 compilado\\theoryproyect_edwinl\\intermediate\\build\\win64\\unrealeditor\\inc\\theoryproyect_edwinl\\uht\\inventory.generated.h"
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\theoryproyect_edwinl\\definitions.theoryproyect_edwinl.h",
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\source\\theoryproyect_edwinl\\inventory.h",
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\unrealeditor\\inc\\theoryproyect_edwinl\\uht\\inventory.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

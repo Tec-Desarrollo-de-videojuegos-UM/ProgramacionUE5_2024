@@ -81,5 +81,5 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="Top Down Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=TheoryProyect_EdwinL
-/fo "C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\Default.rc2.res"
+/fo "D:\githubfacu\Programacion2024\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

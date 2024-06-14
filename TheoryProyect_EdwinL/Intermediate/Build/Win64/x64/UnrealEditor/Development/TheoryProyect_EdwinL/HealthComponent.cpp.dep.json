@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\source\\theoryproyect_edwinl\\healthcomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\x64\\theoryproyect_edwinleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\theoryproyect_edwinl\\definitions.theoryproyect_edwinl.h",
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\source\\theoryproyect_edwinl\\healthcomponent.h",
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\unrealeditor\\inc\\theoryproyect_edwinl\\uht\\healthcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

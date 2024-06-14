@@ -14,11 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define THEORYPROYECT_EDWINL_Inventory_generated_h
 
-#define FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execAddItemToinventory);
 
 
-#define FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInventory(); \
 	friend struct Z_Construct_UClass_UInventory_Statics; \
@@ -27,7 +27,7 @@ public: \
 	DECLARE_SERIALIZER(UInventory)
 
 
-#define FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UInventory(UInventory&&); \
@@ -39,13 +39,13 @@ public: \
 	NO_API virtual ~UInventory();
 
 
-#define FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_10_PROLOG
-#define FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_13_GENERATED_BODY \
+#define FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_10_PROLOG
+#define FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_13_INCLASS_NO_PURE_DECLS \
-	FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_13_ENHANCED_CONSTRUCTORS \
+	FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_13_INCLASS_NO_PURE_DECLS \
+	FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -53,7 +53,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> THEORYPROYECT_EDWINL_API UClass* StaticClass<class UInventory>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h
+#define CURRENT_FILE_ID FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_Inventory_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

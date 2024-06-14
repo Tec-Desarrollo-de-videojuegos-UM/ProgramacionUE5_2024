@@ -39,6 +39,12 @@
     <ClInclude Include="..\..\Source\TheoryProyect_EdwinL\Atributes.h">
       <Filter>Source\TheoryProyect_EdwinL</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\TheoryProyect_EdwinL\HealthComponent.cpp">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheoryProyect_EdwinL\HealthComponent.h">
+      <Filter>Source\TheoryProyect_EdwinL</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TheoryProyect_EdwinL\Inventory.cpp">
       <Filter>Source\TheoryProyect_EdwinL</Filter>
     </ClCompile>

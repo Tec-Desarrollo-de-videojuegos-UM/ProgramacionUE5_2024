@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\pc\\desktop\\proyectos u5 compilado\\theoryproyect_edwinl\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\theoryproyect_edwinl\\singlefile\\myitembasederivated.h",
+        "Source": "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\theoryproyect_edwinl\\singlefile\\myitembasederivated.h",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\pc\\desktop\\proyectos u5 compilado\\theoryproyect_edwinl\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\theoryproyect_edwinl\\definitions.theoryproyect_edwinl.h",
-            "c:\\users\\pc\\desktop\\proyectos u5 compilado\\theoryproyect_edwinl\\intermediate\\build\\win64\\x64\\theoryproyect_edwinleditor\\development\\unrealed\\shareddefinitions.unrealed.project.valapi.cpp20.h",
-            "c:\\users\\pc\\desktop\\proyectos u5 compilado\\theoryproyect_edwinl\\source\\theoryproyect_edwinl\\myitembasederivated.h",
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\theoryproyect_edwinl\\definitions.theoryproyect_edwinl.h",
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\x64\\theoryproyect_edwinleditor\\development\\unrealed\\shareddefinitions.unrealed.project.valapi.cpp20.h",
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\source\\theoryproyect_edwinl\\myitembasederivated.h",
             "d:\\ue_5.4\\engine\\source\\runtime\\core\\public\\coreminimal.h",
             "d:\\ue_5.4\\engine\\source\\runtime\\core\\public\\coretypes.h",
             "d:\\ue_5.4\\engine\\source\\runtime\\core\\public\\hal\\platform.h",
@@ -431,7 +431,7 @@
             "d:\\ue_5.4\\engine\\source\\runtime\\core\\public\\algo\\impl\\rangepointertype.h",
             "d:\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\ray.h",
             "d:\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\vector2dhalf.h",
-            "c:\\users\\pc\\desktop\\proyectos u5 compilado\\theoryproyect_edwinl\\source\\theoryproyect_edwinl\\itembase.h",
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\source\\theoryproyect_edwinl\\itembase.h",
             "d:\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\actor.h",
             "d:\\ue_5.4\\engine\\source\\runtime\\core\\public\\stats\\stats.h",
             "d:\\ue_5.4\\engine\\source\\runtime\\core\\public\\hal\\platformtime.h",
@@ -846,8 +846,8 @@
             "d:\\ue_5.4\\engine\\source\\runtime\\engine\\public\\showflagsvalues.inl",
             "d:\\ue_5.4\\engine\\source\\runtime\\engine\\public\\showflagsvalues.inl",
             "d:\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h",
-            "c:\\users\\pc\\desktop\\proyectos u5 compilado\\theoryproyect_edwinl\\intermediate\\build\\win64\\unrealeditor\\inc\\theoryproyect_edwinl\\uht\\itembase.generated.h",
-            "c:\\users\\pc\\desktop\\proyectos u5 compilado\\theoryproyect_edwinl\\intermediate\\build\\win64\\unrealeditor\\inc\\theoryproyect_edwinl\\uht\\myitembasederivated.generated.h"
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\unrealeditor\\inc\\theoryproyect_edwinl\\uht\\itembase.generated.h",
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\unrealeditor\\inc\\theoryproyect_edwinl\\uht\\myitembasederivated.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

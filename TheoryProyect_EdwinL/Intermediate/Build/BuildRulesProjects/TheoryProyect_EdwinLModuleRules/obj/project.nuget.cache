@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FRvMJ1F3WTfYOmAJLJ6TaUgN3u3efhqEgx+EILhc/K+RwucOkoIwrUutttcoO9WE/ERCzINrxt1v7RqmZFW43g==",
+  "dgSpecHash": "e2nnGBTtjtcNTnVz+m4IcO9bfRC7qiIF3XkiOyhAfq9To3xT8EWRlpGXRqp7T9qIFlTdaoiC0IbJzYSpXJCCpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\proyectos U5 compilado\\TheoryProyect_EdwinL\\Intermediate\\Build\\BuildRulesProjects\\TheoryProyect_EdwinLModuleRules\\TheoryProyect_EdwinLModuleRules.csproj",
+  "projectFilePath": "D:\\githubfacu\\Programacion2024\\TheoryProyect_EdwinL\\Intermediate\\Build\\BuildRulesProjects\\TheoryProyect_EdwinLModuleRules\\TheoryProyect_EdwinLModuleRules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc\\.nuget\\packages\\bitfaster.caching\\2.4.1\\bitfaster.caching.2.4.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\blake3\\0.5.1\\blake3.0.5.1.nupkg.sha512",

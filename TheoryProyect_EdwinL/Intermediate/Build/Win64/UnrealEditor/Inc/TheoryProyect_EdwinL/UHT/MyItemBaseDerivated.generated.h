@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define THEORYPROYECT_EDWINL_MyItemBaseDerivated_generated_h
 
-#define FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_MyItemBaseDerivated_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_MyItemBaseDerivated_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyItemBaseDerivated(); \
 	friend struct Z_Construct_UClass_AMyItemBaseDerivated_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(AMyItemBaseDerivated)
 
 
-#define FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_MyItemBaseDerivated_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_MyItemBaseDerivated_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyItemBaseDerivated(); \
 private: \
@@ -37,12 +37,12 @@ public: \
 	NO_API virtual ~AMyItemBaseDerivated();
 
 
-#define FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_MyItemBaseDerivated_h_14_PROLOG
-#define FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_MyItemBaseDerivated_h_17_GENERATED_BODY \
+#define FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_MyItemBaseDerivated_h_14_PROLOG
+#define FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_MyItemBaseDerivated_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_MyItemBaseDerivated_h_17_INCLASS_NO_PURE_DECLS \
-	FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_MyItemBaseDerivated_h_17_ENHANCED_CONSTRUCTORS \
+	FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_MyItemBaseDerivated_h_17_INCLASS_NO_PURE_DECLS \
+	FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_MyItemBaseDerivated_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -50,7 +50,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> THEORYPROYECT_EDWINL_API UClass* StaticClass<class AMyItemBaseDerivated>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_MyItemBaseDerivated_h
+#define CURRENT_FILE_ID FID_githubfacu_Programacion2024_TheoryProyect_EdwinL_Source_TheoryProyect_EdwinL_MyItemBaseDerivated_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

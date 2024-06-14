@@ -1,11 +1,11 @@
-"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\UnrealEditor\Inc\TheoryProyect_EdwinL\UHT\Atributes.gen.cpp"
-/FI"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\TheoryProyect_EdwinLEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\Definitions.TheoryProyect_EdwinL.h"
-/Yu"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\TheoryProyect_EdwinLEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\TheoryProyect_EdwinLEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\Atributes.gen.cpp.obj"
-/sourceDependencies "C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\Atributes.gen.cpp.dep.json"
-@"C:\Users\pc\Desktop\proyectos U5 compilado\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\TheoryProyect_EdwinL.Shared.rsp"
+"D:\githubfacu\Programacion2024\TheoryProyect_EdwinL\Intermediate\Build\Win64\UnrealEditor\Inc\TheoryProyect_EdwinL\UHT\Atributes.gen.cpp"
+/FI"D:\githubfacu\Programacion2024\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\TheoryProyect_EdwinLEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"D:\githubfacu\Programacion2024\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\Definitions.TheoryProyect_EdwinL.h"
+/Yu"D:\githubfacu\Programacion2024\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\TheoryProyect_EdwinLEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"D:\githubfacu\Programacion2024\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\TheoryProyect_EdwinLEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"D:\githubfacu\Programacion2024\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\Atributes.gen.cpp.obj"
+/sourceDependencies "D:\githubfacu\Programacion2024\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\Atributes.gen.cpp.dep.json"
+@"D:\githubfacu\Programacion2024\TheoryProyect_EdwinL\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryProyect_EdwinL\TheoryProyect_EdwinL.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

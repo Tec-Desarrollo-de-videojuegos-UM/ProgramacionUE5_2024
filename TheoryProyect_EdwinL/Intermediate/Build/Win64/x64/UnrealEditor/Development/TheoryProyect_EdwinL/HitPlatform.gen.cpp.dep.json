@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\unrealeditor\\inc\\theoryproyect_edwinl\\uht\\hitplatform.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\x64\\theoryproyect_edwinleditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\theoryproyect_edwinl\\definitions.theoryproyect_edwinl.h",
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\source\\theoryproyect_edwinl\\hitplatform.h",
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\source\\theoryproyect_edwinl\\aactor.h",
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\unrealeditor\\inc\\theoryproyect_edwinl\\uht\\aactor.generated.h",
+            "d:\\githubfacu\\programacion2024\\theoryproyect_edwinl\\intermediate\\build\\win64\\unrealeditor\\inc\\theoryproyect_edwinl\\uht\\hitplatform.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
