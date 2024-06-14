@@ -16,20 +16,20 @@ public:
 	// Sets default values for this actor's properties
 	AMainItem();
 
-
+	
 public:
 
-	UPROPERTY(EditAnyWhere, BlueprintReadOnly)
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite)
 	FString itemName;
 
-	UPROPERTY(EditAnyWhere, BlueprintReadOnly)
+	UPROPERTY(EditAnyWhere, BlueprintReadWrite)
 	int32 itemAmount;
 
-private:
+public:
+	
+	UStaticMesh* StaticMeshObject;
 
-	UPROPERTY(EditAnyWhere)
+	UPROPERTY (EditAnywhere)
 	UBoxComponent* BoxCollider;
-
-
 
 };
