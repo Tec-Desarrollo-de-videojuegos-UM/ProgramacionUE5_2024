@@ -15,37 +15,30 @@ void UHealthComponent::BeginPlay()
 bool UHealthComponent::Destruido()
 {
     health = health - 10;
-    if (health > 0)
+    if (health <= 0)
     {
-        if (GEngine)
-        {
-            FString DebugMessage = FString::Printf(TEXT("Hiciste dano a este pobre Objeto, Vida Restante: %d"), health);
-            GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, DebugMessage);
-        }
-        return false;
+       
+        
+       if (AActor* Owner = GetOwner())
+       {
+           if (GEngine)
+           {
+               GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Actor destruido"));
+           }
+           Owner->Destroy();
+       }
+        
+       
+        return true;
     }
     else
     {
         if (GEngine)
         {
-            FString DebugMessage = FString::Printf(TEXT("Objeto Destruido"));
+            FString DebugMessage = FString::Printf(TEXT("Le Pegaste A Este Pobre Objeto, Vida Restante: %d."), health);
             GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, DebugMessage);
+
         }
-        return true;
+        return false;
     }
 }
-
-void UHealthComponent::CheckIfDestroyed()
-{
-    if (health <= 0)
-    {
-        if (AActor* Owner = GetOwner())
-        {
-            if (GEngine)
-            {
-                GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Actor destruido"));
-            }
-            Owner->Destroy();
-        }
-    }
-};

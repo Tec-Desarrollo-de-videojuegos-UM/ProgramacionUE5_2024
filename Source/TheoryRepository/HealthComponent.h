@@ -28,6 +28,4 @@ private:
     UPROPERTY(EditAnywhere)
     int32 health;
 
-    UFUNCTION(BlueprintCallable,Category = "CheckIfDestroyed?")
-    void CheckIfDestroyed();
-};
+  };
