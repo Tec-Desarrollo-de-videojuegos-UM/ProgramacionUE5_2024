@@ -13,5 +13,12 @@ UCLASS()
 class THEORYREPOSITORY_API APlatform_System : public AMyactor2
 {
 	GENERATED_BODY()
-	
+
+ public:
+	//Collision component
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	class UBoxComponent* BoxComponent;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	class UStaticMeshComponent* MeshComponent;
 };
