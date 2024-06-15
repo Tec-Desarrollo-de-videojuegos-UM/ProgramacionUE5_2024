@@ -16,7 +16,9 @@ public:
 	// Sets default values for this component's properties
 	UHealthComponent();
 public:
-	int life = 10;
+	UPROPERTY(BlueprintReadWrite)
+	int life = 5;
+	
 	UPROPERTY(BlueprintReadWrite)
 	bool isAlive;
 

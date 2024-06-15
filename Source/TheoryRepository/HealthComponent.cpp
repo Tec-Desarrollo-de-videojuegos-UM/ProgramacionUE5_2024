@@ -17,7 +17,7 @@ UHealthComponent::UHealthComponent()
 
 void UHealthComponent::RestAndCheckLife()
 {
-	life = life - 2;
+	life = life - 1;
 
 	if (life >= 1)
 	{
