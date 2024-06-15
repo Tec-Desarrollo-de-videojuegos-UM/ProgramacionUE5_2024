@@ -31,11 +31,3 @@ void APersonaje::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
-void VerificarVida(int vida) {
-	if (vida <= 0) (TEXT("Estas Muerto"));
-	else (TEXT("Estas Vivo"));
-}
-void VerificarEnergia(int energia) {
-	if (energia <= 0) (TEXT("No tienes suficiente energia"));
-	else (TEXT("Tienes suficiente energia"));
-}
