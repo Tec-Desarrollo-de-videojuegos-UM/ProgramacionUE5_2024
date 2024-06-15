@@ -10,7 +10,6 @@ AHitPlatform::AHitPlatform()
 	PrimaryActorTick.bCanEverTick = true;
 
 	BoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxCollider"));
-	BoxMesh = CreateDefaultSubobject<UStaticMesh>(TEXT("BoxMesh"));
 
 	RootComponent = BoxCollider;
 }

@@ -13,6 +13,21 @@ UHealthComponent::UHealthComponent()
 	// ...
 }
 
+bool UHealthComponent::CheckDestroyable(float healthCheck)
+{
+	health = health - healthCheck;
+	if (health <= 0)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Green, TEXT("Item Destroyed"));
+		return true;
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Green, TEXT("Item Health Decreased"));
+		return false;
+	}
+}
+
 
 // Called when the game starts
 void UHealthComponent::BeginPlay()
