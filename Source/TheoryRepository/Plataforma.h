@@ -17,6 +17,6 @@ public:
 	APlataforma();
 
 private:
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	UBoxComponent* BoxCollider;
 };
