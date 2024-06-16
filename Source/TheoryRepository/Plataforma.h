@@ -16,7 +16,7 @@ public:
 	// Sets default values for this actor's properties
 	APlataforma();
 
-private:
+public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	UBoxComponent* BoxCollider;
 };
