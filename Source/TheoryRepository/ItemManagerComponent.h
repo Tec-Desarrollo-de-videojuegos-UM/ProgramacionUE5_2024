@@ -8,7 +8,7 @@
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class THEORYREPOSITORY_API UItemManagerComponent : public UActorComponent
+class THEORYREPOSITORY_API UItemManagerCompon	ent : public UActorComponent
 {
 	GENERATED_BODY()
 
