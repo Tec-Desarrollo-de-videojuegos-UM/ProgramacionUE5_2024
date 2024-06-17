@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include <Components/BoxComponent.h>
 #include "MainItem.generated.h"
 
 UCLASS()
@@ -15,12 +16,15 @@ public:
 	// Sets default values for this actor's properties
 	AMainItem();
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	FString itemName;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	int32 itemAmount;
 
+private:
+	UPROPERTY(EditAnywhere)
+	UBoxComponent* BoxCollider;
+	
 };
