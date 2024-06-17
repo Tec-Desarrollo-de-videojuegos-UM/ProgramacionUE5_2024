@@ -18,6 +18,7 @@ public:
 	UPROPERTY(EditAnywhere)
 	UBoxComponent* BoxCollider;
 
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
