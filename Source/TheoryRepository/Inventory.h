@@ -19,7 +19,7 @@ public:
 	void AddItemToInventory(FString ItemName, int32 ItemAmount);
 
 public:
-
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<FString> itemNameList;
 
