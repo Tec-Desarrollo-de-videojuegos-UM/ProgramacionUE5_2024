@@ -13,22 +13,20 @@ UItemManagerComponent::UItemManagerComponent()
 	// ...
 }
 
-
-// Called when the game starts
-void UItemManagerComponent::BeginPlay()
+void UItemManagerComponent::AddItemToInventory(FString ItemName, int32 ItemAmount)
 {
-	Super::BeginPlay();
+	if (itemNameList.Contains(ItemName))
+	{
+		if (itemAmountList.IsValidIndex(itemNameList.Find(ItemName)))
+		{
+			itemAmountList[itemNameList.Find(ItemName)] = itemAmountList[itemNameList.Find(ItemName)] + ItemAmount;
+		}
+	}
+	else
+	{
+		itemNameList.Add(ItemName);
+		itemAmountList.Add(ItemAmount);
 
-	// ...
-	
-}
-
-
-// Called every frame
-void UItemManagerComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
-{
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
-	// ...
+	}
 }
 
