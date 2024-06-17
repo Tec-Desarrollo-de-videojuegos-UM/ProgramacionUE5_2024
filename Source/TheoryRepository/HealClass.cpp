@@ -32,3 +32,28 @@ void UHealClass::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompo
 	// ...
 }
 
+bool UHealClass::verificarVida()
+{
+	if (vidaPlataforma <= 0) // Plataforma Muerta
+	{
+		return false;
+	}
+	else // Pared Viva
+	{
+		return true;
+	}
+}
+
+void UHealClass::takedamage()
+{
+	if (vidaPlataforma <= 0) // Plataforma Muerta
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("PLATAFORMA MUERTA"));
+	}
+
+	else // Plataforma Viva
+	{
+		vidaPlataforma = vidaPlataforma - 5;
+	}
+}
+
