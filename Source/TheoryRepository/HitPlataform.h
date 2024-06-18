@@ -1,0 +1,29 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include <Components/BoxComponent.h>
+#include "HitPlataform.generated.h"
+
+UCLASS()
+class THEORYREPOSITORY_API AHitPlataform : public AActor
+{
+	GENERATED_BODY()
+	
+public:	
+	// Sets default values for this actor's properties
+	AHitPlataform();
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	FString itemName;
+	
+
+private:
+
+	UPROPERTY(EditAnywhere)
+	UBoxComponent* BoxCollider;
+
+};
