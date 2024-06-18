@@ -5,6 +5,7 @@ UHealthComponent::UHealthComponent()
 {
     PrimaryComponentTick.bCanEverTick = false;
     health = 100; // Valor predeterminado de la salud
+    DestroyDelay = 0.8f; //Valor Predeterminado del Delay para destruir el Objeto
 }
 
 void UHealthComponent::BeginPlay()
@@ -12,7 +13,7 @@ void UHealthComponent::BeginPlay()
     Super::BeginPlay();
 }
 
-bool UHealthComponent::Destruido()
+void UHealthComponent::Destruido()
 {
     health = health - 10;
     if (health <= 0)
@@ -25,11 +26,13 @@ bool UHealthComponent::Destruido()
            {
                GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Actor destruido"));
            }
-           Owner->Destroy();
+           FTimerHandle DestroyTimerHandle;
+           GetWorld()->GetTimerManager().SetTimer(DestroyTimerHandle, [Owner]() {
+               Owner->Destroy();
+
+               }, DestroyDelay, false);
        }
-        
-       
-        return true;
+
     }
     else
     {
@@ -38,7 +41,6 @@ bool UHealthComponent::Destruido()
             FString DebugMessage = FString::Printf(TEXT("Le Pegaste A Este Pobre Objeto, Vida Restante: %d."), health);
             GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, DebugMessage);
 
-        }
-        return false;
+        }        
     }
 }

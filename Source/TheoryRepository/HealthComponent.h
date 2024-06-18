@@ -15,7 +15,7 @@ public:
     UHealthComponent();
 
     UFUNCTION(BlueprintCallable,Category="Destruido")
-    bool Destruido();
+    void Destruido();
 
 protected:
   
@@ -27,5 +27,8 @@ private:
 
     UPROPERTY(EditAnywhere)
     int32 health;
+
+    UPROPERTY(EditDefaultsOnly, Category ="Destruido")
+    float DestroyDelay;
 
   };
