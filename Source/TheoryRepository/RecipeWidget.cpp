@@ -11,6 +11,10 @@ URecipeWidget::URecipeWidget(const FObjectInitializer& ObjectInicilizer) :
 	
 }
 
+
+
+
+
 void URecipeWidget::SetRecipe(TMap<FString, int32>& Recipe)
 {
 	RecipeMap = Recipe;
