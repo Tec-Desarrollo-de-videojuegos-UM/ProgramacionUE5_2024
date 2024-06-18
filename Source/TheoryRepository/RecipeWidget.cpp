@@ -8,11 +8,7 @@
 URecipeWidget::URecipeWidget(const FObjectInitializer& ObjectInicilizer) : 
 	Super(ObjectInicilizer)
 {
-	
 }
-
-
-
 
 
 void URecipeWidget::SetRecipe(TMap<FString, int32>& Recipe)

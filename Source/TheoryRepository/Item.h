@@ -8,7 +8,7 @@
 #include "Item.generated.h"
 
 UCLASS()
-class THEORYREPOSITORY_API AItem : public AActor
+class THEORYREPOSITORY_API AItem : private AActor
 {
 	GENERATED_BODY()
 	
@@ -31,6 +31,5 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 		FString itemName;
 		UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	int32 itemAmmount;
-
+	int32 itemAmmount (3);
 };

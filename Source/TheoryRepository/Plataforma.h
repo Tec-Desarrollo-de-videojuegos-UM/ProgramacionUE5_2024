@@ -8,11 +8,11 @@
 #include "Plataforma.generated.h"
 
 UCLASS()
-class THEORYREPOSITORY_API APlataforma : public AActor
+class THEORYREPOSITORY_API APlataformn: public AActor
 {
 	GENERATED_BODY()
 	
-public:	
+private:	
 	// Sets default values for this actor's properties
 	APlataforma();
 
@@ -23,6 +23,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+
 private:
 	UPROPERTY(EditAnywhere)
 	UBoxComponent* BoxCollider;

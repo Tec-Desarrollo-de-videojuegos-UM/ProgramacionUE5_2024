@@ -12,7 +12,7 @@ class THEORYREPOSITORY_API UHealthComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:	
+private:	
 	// Sets default values for this component's properties
 	UHealthComponent();
 
@@ -22,14 +22,15 @@ protected:
 
 public:	
 	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
+	virtual void TickComponent(float Time, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	UFUNCTION(BlueprintCallable)
-	void CheckDestruirPlataforma(float danio);
+	void Checksedestruye(float danio);
 
 
 public:
 UPROPERTY(Editanywhere, BlueprintReadOnly)
 float vidaPlataforma;
 UPROPERTY(Editanywhere, BlueprintReadOnly)
-bool sePuedeDestruir;
+bool sedestruye;
 };

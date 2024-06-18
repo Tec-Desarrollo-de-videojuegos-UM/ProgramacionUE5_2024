@@ -21,9 +21,8 @@ void AItem::BeginPlay()
 }
 
 // Called every frame
-void AItem::Tick(float DeltaTime)
+void AItem::Tick(float Time)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(Time);
 
 }
-
