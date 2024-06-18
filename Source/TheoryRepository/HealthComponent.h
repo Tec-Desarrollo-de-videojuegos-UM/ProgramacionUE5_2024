@@ -16,9 +16,9 @@ public:
 	// Sets default values for this component's properties
 	UHealthComponent();
 	//funcion para chequear vida
-	UFUNCTION(BlueprintCallable) bool checkHealt(float restHealt);
+	UFUNCTION(BlueprintCallable) float checkHealt(int32 restHealt);
 	//variable vida
-	UPROPERTY(EditAnywhere) float Healt;
+	UPROPERTY(EditAnywhere) int32 Healt;
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;

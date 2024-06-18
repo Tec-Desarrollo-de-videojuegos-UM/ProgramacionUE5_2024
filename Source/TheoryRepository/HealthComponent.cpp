@@ -13,7 +13,7 @@ UHealthComponent::UHealthComponent()
 	// ...
 }
 
-bool UHealthComponent::checkHealt(float restHealt)
+float UHealthComponent::checkHealt(int32 restHealt)
 {
 	if (Healt <= 0)
 	{
@@ -22,7 +22,7 @@ bool UHealthComponent::checkHealt(float restHealt)
 	}
 	else
 	{
-		Healt = restHealt - Healt;
+		Healt = Healt - restHealt;
 		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("Objeto valido"));
 		return true;
 	}
