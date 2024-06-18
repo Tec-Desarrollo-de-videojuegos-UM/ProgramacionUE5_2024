@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\programas videojuegos\\repositorios\\proyectos\\programacion2024\\tarea1pueblounreal\\intermediate\\build\\win64\\unrealeditor\\inc\\theoryrepository\\uht\\theoryrepository.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\programas videojuegos\\repositorios\\proyectos\\programacion2024\\tarea1pueblounreal\\intermediate\\build\\win64\\x64\\theoryrepositoryeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\programas videojuegos\\repositorios\\proyectos\\programacion2024\\tarea1pueblounreal\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\theoryrepository\\definitions.theoryrepository.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

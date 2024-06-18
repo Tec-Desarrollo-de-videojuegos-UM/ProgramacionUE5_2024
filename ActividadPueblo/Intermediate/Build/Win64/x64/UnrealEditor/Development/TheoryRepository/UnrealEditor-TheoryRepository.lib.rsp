@@ -1,0 +1,19 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TheoryRepository.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Programas Videojuegos\Repositorios\proyectos\Programacion2024\tarea1PuebloUnreal\Intermediate\Build\Win64\x64\TheoryRepositoryEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Programas Videojuegos\Repositorios\proyectos\Programacion2024\tarea1PuebloUnreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryRepository\Personaje.gen.cpp.obj"
+"C:\Programas Videojuegos\Repositorios\proyectos\Programacion2024\tarea1PuebloUnreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryRepository\Personajeee.gen.cpp.obj"
+"C:\Programas Videojuegos\Repositorios\proyectos\Programacion2024\tarea1PuebloUnreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryRepository\RecipeWidget.gen.cpp.obj"
+"C:\Programas Videojuegos\Repositorios\proyectos\Programacion2024\tarea1PuebloUnreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryRepository\TheoryRepository.init.gen.cpp.obj"
+"C:\Programas Videojuegos\Repositorios\proyectos\Programacion2024\tarea1PuebloUnreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryRepository\RecipeWidget.cpp.obj"
+"C:\Programas Videojuegos\Repositorios\proyectos\Programacion2024\tarea1PuebloUnreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryRepository\TheoryRepository.cpp.obj"
+"C:\Programas Videojuegos\Repositorios\proyectos\Programacion2024\tarea1PuebloUnreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryRepository\Personaje.cpp.obj"
+"C:\Programas Videojuegos\Repositorios\proyectos\Programacion2024\tarea1PuebloUnreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryRepository\Personajeee.cpp.obj"
+"C:\Programas Videojuegos\Repositorios\proyectos\Programacion2024\tarea1PuebloUnreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryRepository\Default.rc2.res"
+/OUT:"C:\Programas Videojuegos\Repositorios\proyectos\Programacion2024\tarea1PuebloUnreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\TheoryRepository\UnrealEditor-TheoryRepository.lib"
