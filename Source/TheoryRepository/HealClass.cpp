@@ -9,7 +9,6 @@ UHealClass::UHealClass()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
 	// ...
 }
 
@@ -32,28 +31,17 @@ void UHealClass::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompo
 	// ...
 }
 
-bool UHealClass::verificarVida()
-{
-	if (vidaPlataforma <= 0) // Plataforma Muerta
-	{
-		return false;
-	}
-	else // Pared Viva
-	{
-		return true;
-	}
-}
-
 void UHealClass::takedamage()
 {
-	if (vidaPlataforma <= 0) // Plataforma Muerta
+
+	if (vidaPlataforma > 1) 
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Red, TEXT("PLATAFORMA MUERTA"));
+		vidaPlataforma -= 1;
 	}
 
-	else // Plataforma Viva
+	else 
 	{
-		vidaPlataforma = vidaPlataforma - 5;
+		GetOwner()->Destroy();
 	}
 }
 

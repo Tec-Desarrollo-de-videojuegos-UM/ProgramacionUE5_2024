@@ -3,8 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Components/BoxComponent.h"
 #include "GameFramework/Actor.h"
-#include <Components/BoxComponent.h>
 #include "HitPlatform.generated.h"
 
 UCLASS()
@@ -12,11 +12,11 @@ class THEORYREPOSITORY_API AHitPlatform : public AActor
 {
 	GENERATED_BODY()
 	
-public:	
+public:
 	// Constructor
 	AHitPlatform();
 
-public:	
+public:
 	UPROPERTY(EditAnywhere)
 	UBoxComponent* BoxCollider;
 

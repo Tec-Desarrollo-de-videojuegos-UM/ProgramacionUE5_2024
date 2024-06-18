@@ -10,4 +10,3 @@ AHitPlatform::AHitPlatform()
 	BoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxCollision"));
 	RootComponent = BoxCollider;
 }
-

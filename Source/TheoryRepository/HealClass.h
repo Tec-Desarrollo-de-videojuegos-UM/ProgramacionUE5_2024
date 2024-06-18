@@ -24,16 +24,10 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-		UFUNCTION (BlueprintCallable)
-
-		bool verificarVida();
-
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 vidaPlataforma; 
 
 	UFUNCTION(BlueprintCallable)
-
 	void takedamage();
 };
