@@ -23,9 +23,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-private:
-	UPROPERTY(EditAnywhere)
+
+	UPROPERTY(EditAnywhere,BlueprintReadOnly)
 	UBoxComponent* CollsionPlatform;
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(EditAnywhere,BlueprintReadOnly)
 	UStaticMesh* StaticMeshObject;
 };
