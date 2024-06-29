@@ -8,7 +8,7 @@
 #include "Plataforma.generated.h"
 
 UCLASS()
-class THEORYREPOSITORY_API APlataformn: public AActor
+class THEORYREPOSITORY_API APlataforma: public AActor
 {
 	GENERATED_BODY()
 	

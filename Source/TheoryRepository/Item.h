@@ -8,7 +8,7 @@
 #include "Item.generated.h"
 
 UCLASS()
-class THEORYREPOSITORY_API AItem : private AActor
+class THEORYREPOSITORY_API AItem : public AActor
 {
 	GENERATED_BODY()
 	
@@ -29,7 +29,7 @@ private:
 	UBoxComponent* BoxCollider;
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-		FString itemName;
-		UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	int32 itemAmmount (3);
+	FString itemName;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	int32 itemAmmount = 3;
 };

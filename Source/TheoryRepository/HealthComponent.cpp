@@ -4,7 +4,7 @@
 #include "HealthComponent.h"
 
 // Sets default values for this component's properties
-UHealthComponent::UHealthComponent(100)
+UHealthComponent::UHealthComponent()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
@@ -25,8 +25,8 @@ void UHealthComponent::BeginPlay()
 
 void UHealthComponent::Checksedestruye(float danio)
 {
-	Plataformavida = plataformavida - danio;
-	if (plataformavida <= 0)
+	vidaPlataforma = vidaPlataforma - danio;
+	if (vidaPlataforma <= 0)
 	{
 		sedestruye = true;
 	}
