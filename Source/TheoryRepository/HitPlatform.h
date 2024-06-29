@@ -22,7 +22,5 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	class UStaticMeshComponent* MeshComponent;
-
-private:
-	UFUNCTION(BlueprintCallable)
+	
 };
