@@ -19,10 +19,9 @@ bool UHealthComponent::CheckHealth()
 	if (Health > 0)
 	{
 		GEngine->BeginDestroy();
+		return false;
 	}
-	else
-	{
-
-	}
+	
+return true;
 };
 

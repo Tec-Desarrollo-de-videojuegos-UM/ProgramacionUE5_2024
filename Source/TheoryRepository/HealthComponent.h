@@ -18,7 +18,7 @@ public:
 	UHealthComponent();
 	
 public:	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UFUNCTION(BlueprintCallable)
 	bool CheckHealth();
 
 private:
