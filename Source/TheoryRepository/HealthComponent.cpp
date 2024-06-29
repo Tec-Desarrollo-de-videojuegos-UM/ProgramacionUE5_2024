@@ -17,7 +17,7 @@ void UHealthComponent::CheckHealth(float HealthToCheck)
 {
 	if (health <= 0)
 	{
-		GEngine->Destroy();
+		DestroyComponent();
 
 	}
 
