@@ -20,7 +20,8 @@ public:
 	void SetRecipe(TMap<FString, int32>& Recipe);
 	UFUNCTION(BlueprintCallable)
 	void AddIngredient(FString ingredientName, int32 Quantity);
-
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
+	int vida;
 protected:
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
 	class UUniformGridPanel* RecipeGrid;
