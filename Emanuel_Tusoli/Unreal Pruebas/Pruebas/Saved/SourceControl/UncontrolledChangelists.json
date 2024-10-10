@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"A:/gith/ProgramacionUE5_2024/Emanuel_Tusoli/Unreal Pruebas/Pruebas/Content/NewWorld.umap",
+				"A:/gith/ProgramacionUE5_2024/Emanuel_Tusoli/Unreal Pruebas/Pruebas/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"A:/gith/ProgramacionUE5_2024/Emanuel_Tusoli/Unreal Pruebas/Pruebas/Content/Prueba.umap"
+			]
+		}
+	]
+}
